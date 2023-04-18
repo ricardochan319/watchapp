@@ -77,3 +77,10 @@ table {
 .secondary-btn:hover {
   color: #fff;
 }
+
+@media (max-width: 1028px) {
+  .big-heading {
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
