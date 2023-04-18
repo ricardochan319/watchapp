@@ -1,0 +1,79 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-color: #fafafa;
+  margin: 2% 15%;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+/* Form */
+
+.form {
+  margin-top: 10px;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 15%;
+}
+
+/* Table */
+
+img {
+  width: 30%;
+}
+
+table {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#table {
+  line-height: 5;
+}
+
+#tabs {
+  margin: 50px auto 20px;
+}
+
+#title {
+  margin-left: 0;
+}
+
+/* Container Section */
+
+.container-login {
+  margin: 10% 10%;
+}
+
+/* Tabs */
+
+.btn-global {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 0.875rem;
+  margin: 0 5px 0 0;
+}
+
+.primary-btn {
+  color: #fff;
+}
+
+.secondary-btn {
+  color: #6c757d;
+}
+
+.secondary-btn:hover {
+  color: #fff;
+}
