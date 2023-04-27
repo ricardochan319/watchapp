@@ -1,64 +1,19 @@
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  background-color: #fafafa;
-  margin: 2% 15%;
+  background-color: #f1f6f5;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem auto;
 }
 
-/* Form */
-
-.form {
-  margin-top: 10px;
-}
-
-/* Headings */
-
-.big-heading {
-  font-family: "Montserrat";
-  font-weight: 900;
-  line-height: 1.5;
-  margin-top: 15%;
-}
-
-/* Table */
-
-img {
-  width: 30%;
-}
-
-table {
+.table {
   background-color: #fff;
   border-radius: 10px;
-}
-
-#table {
-  line-height: 5;
-}
-
-#tabs {
-  margin: 50px auto 20px;
-}
-
-#title {
-  margin-left: 0;
-}
-
-/* Container Section */
-
-.container-login {
-  margin: 10% 10%;
-}
-
-/* Tabs */
-
-.btn-global {
-  text-decoration: none;
+  padding: 50px;
+  font-size: 0.875rem;
 }
 
 .btn {
@@ -66,10 +21,13 @@ table {
   margin: 0 5px 0 0;
 }
 
+.btn-global {
+  text-decoration: none;
+}
+
 .primary-btn {
   color: #fff;
 }
-
 .secondary-btn {
   color: #6c757d;
 }
@@ -78,9 +36,6 @@ table {
   color: #fff;
 }
 
-@media (max-width: 1028px) {
-  .big-heading {
-    text-align: center;
-    margin-bottom: 20%;
-  }
+.img-item {
+  width: 50%;
 }
