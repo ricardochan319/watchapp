@@ -49,9 +49,54 @@
 
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <a href="index.html" class="nav-link" aria-current="page"
-                  >Logout</a
-                >
+                <a href="#" class="nav-link" aria-current="page">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    class="bi bi-search"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    class="bi bi-heart"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link" aria-current="page">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    class="bi bi-box-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                    />
+                  </svg>
+                </a>
               </li>
             </ul>
           </header>
@@ -62,148 +107,271 @@
     <!-- Title Section -->
 
     <section id="title">
-      <div class="container my-2 py-2">
-        <h2 class="title">Listing</h2>
-        <button type="button" class="btn btn-outline-secondary">
-          <a class="btn-global secondary-btn" href="info.html">Info</a>
-        </button>
-        <button type="button" class="btn btn-outline-secondary">
-          <a class="btn-global secondary-btn" href="status.html">Status</a>
-        </button>
-        <button type="button" class="btn btn-primary" disabled>
-          <a class="btn-global primary-btn">Listing</a>
-        </button>
+      <div class="container my-2 py-2 title">
+        <div class="row align-items-end">
+          <div class="col-lg-6">
+            <div class="text-start">
+              <h2 class="title-header">Listing</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 text-start text-lg-end">
+            <ul class="nav nav-pills d-inline-flex justify-content-end">
+              <li class="nav-item me-2">
+                <a class="btn btn-outline-primary border-1" href="info.html"
+                  >Info</a
+                >
+              </li>
+              <li class="nav-item me-2">
+                <a class="btn btn-outline-primary border-1" href="status.html"
+                  >Status
+                </a>
+              </li>
+              <li class="nav-item me-0">
+                <a
+                  class="btn btn-outline-primary border-1 active"
+                  href="listing.html"
+                  >Listing</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Table Section -->
-    <section>
-      <div class="container table-responsive table">
-        <table class="table mb-4 lh-lg">
-          <thead>
-            <tr>
-              <th scope="col">ID</th>
-              <th scope="col">Watch</th>
-              <th scope="col">eBay ID</th>
-              <th scope="col">Title</th>
-              <th scope="col">Gallery</th>
-              <th scope="col">View Item</th>
-              <th scope="col">Autopay</th>
-              <th scope="col">Postal Code</th>
-              <th scope="col">Location</th>
-              <th scope="col">Selling Status</th>
-              <th scope="col">Listing Info</th>
-              <th scope="col">Condition</th>
-              <th scope="col">Day Created</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th class="text-nowrap" scope="row">305877</th>
-              <td>Breitling</td>
-              <td>304897286519</td>
-              <td>Breitling</td>
-              <td>
+    <!-- Product Section -->
+
+    <section id="listing">
+      <div class="container listing">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
                 <img
-                  class="img-item"
-                  src="https://i.ebayimg.com/thumbs/images/g/XAYAAOSwThJkPd9d/s-l140.jpg"
-                  alt="Breitling Watch"
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/1/gallery_square_1080/asset-version-651fd7e5b5/x82310a41b1s1-endurance-pro-soldier.webp"
+                  alt=""
                 />
-              </td>
-              <td>
-                <a
-                  href="https://www.ebay.com/itm/Breitling-Navitimer-B01-Stainless-Steel-Salmon-Dial-43mm-AB0138241K1A1-Full-Set-/304897286519"
-                  >Link</a
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Endurance</a
                 >
-              </td>
-              <td>✓</td>
-              <td>600**</td>
-              <td>Buffalo</td>
-              <td></td>
-              <td></td>
-              <td>New</td>
-              <td>April 18, 2023</td>
-            </tr>
-            <tr>
-              <th class="text-nowrap" scope="row">305877</th>
-              <td>Breitling</td>
-              <td>304897286519</td>
-              <td>Breitling</td>
-              <td>
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
                 <img
-                  class="img-item"
-                  src="https://i.ebayimg.com/thumbs/images/g/XAYAAOSwThJkPd9d/s-l140.jpg"
-                  alt="Breitling Watch"
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/3/gallery_square_1080/asset-version-c4f9732a4d/x823102c1b1s1-endurance-pro-univeristy-of-alabama-soldier.webp"
+                  alt=""
                 />
-              </td>
-              <td>
-                <a
-                  href="https://www.ebay.com/itm/Breitling-Navitimer-B01-Stainless-Steel-Salmon-Dial-43mm-AB0138241K1A1-Full-Set-/304897286519"
-                  >Link</a
+                <div
+                  class="bg-success text-white position-absolute start-0 top-0 m-4 py-1 px-2"
                 >
-              </td>
-              <td>✓</td>
-              <td>600**</td>
-              <td>Buffalo</td>
-              <td></td>
-              <td></td>
-              <td>New</td>
-              <td>April 18, 2023</td>
-            </tr>
-            <tr>
-              <th class="text-nowrap" scope="row">305877</th>
-              <td>Breitling</td>
-              <td>304897286519</td>
-              <td>Breitling</td>
-              <td>
+                  New
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Alabama</a
+                >
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
                 <img
-                  class="img-item"
-                  src="https://i.ebayimg.com/thumbs/images/g/XAYAAOSwThJkPd9d/s-l140.jpg"
-                  alt="Breitling Watch"
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/2/gallery_square_1080/asset-version-f2ab2e99f4/x82310281b1s1-endurance-pro-soldier.webp"
+                  alt=""
                 />
-              </td>
-              <td>
-                <a
-                  href="https://www.ebay.com/itm/Breitling-Navitimer-B01-Stainless-Steel-Salmon-Dial-43mm-AB0138241K1A1-Full-Set-/304897286519"
-                  >Link</a
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Endurance</a
                 >
-              </td>
-              <td>✓</td>
-              <td>600**</td>
-              <td>Buffalo</td>
-              <td></td>
-              <td></td>
-              <td>New</td>
-              <td>April 18, 2023</td>
-            </tr>
-            <tr>
-              <th class="text-nowrap" scope="row">305877</th>
-              <td>Breitling</td>
-              <td>304897286519</td>
-              <td>Breitling</td>
-              <td>
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
                 <img
-                  class="img-item"
-                  src="https://i.ebayimg.com/thumbs/images/g/XAYAAOSwThJkPd9d/s-l140.jpg"
-                  alt="Breitling Watch"
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/1/gallery_square_1080/asset-version-affd624406/x82310a71b1s1-endurance-pro-soldier.webp"
+                  alt=""
                 />
-              </td>
-              <td>
-                <a
-                  href="https://www.ebay.com/itm/Breitling-Navitimer-B01-Stainless-Steel-Salmon-Dial-43mm-AB0138241K1A1-Full-Set-/304897286519"
-                  >Link</a
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Endurance</a
                 >
-              </td>
-              <td>✓</td>
-              <td>600**</td>
-              <td>Buffalo</td>
-              <td></td>
-              <td></td>
-              <td>New</td>
-              <td>April 18, 2023</td>
-            </tr>
-          </tbody>
-        </table>
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
+                <img
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/3/gallery_square_1080/asset-version-03e02a583a/x823104c1b1s1-endurance-pro-princeton-soldier.webp"
+                  alt=""
+                />
+                <div
+                  class="bg-secondary text-white position-absolute start-0 top-0 m-4 py-1 px-2"
+                >
+                  Ended
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Princeton</a
+                >
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
+                <img
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/2/gallery_square_1080/asset-version-e07c029974/x82310d31b1s1-endurance-pro-soldier.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Endurance</a
+                >
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
+                <img
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/3/gallery_square_1080/asset-version-ec59b627f5/x823101c1b1s1-endurance-pro-univeristy-of-michigan-soldier.webp"
+                  alt=""
+                />
+                <div
+                  class="bg-danger text-white position-absolute start-0 top-0 m-4 py-1 px-2"
+                >
+                  Ending Soon
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Michigan</a
+                >
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col listing-card">
+            <div class="listing-item">
+              <div class="position-relative bg-light">
+                <img
+                  class="w-100"
+                  src="https://www.breitling.com/media/image/3/gallery_square_1080/asset-version-871e155c89/x82310e51b1s1-endurance-pro-soldier.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center p-4">
+                <a class="d-block h5 text-decoration-none mb-2" href="#"
+                  >Endurance</a
+                >
+                <span>$3,700</span>
+              </div>
+              <div class="d-flex border-top">
+                <small class="w-50 text-center border-end py-2">
+                  <a class="text-body" href="">View detail</a>
+                </small>
+                <small class="w-50 text-center py-2">
+                  <a class="text-body" href="">Save</a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <a class="btn btn-primary rounded-pill py-3 px-5 mt-5" href="#"
+            >Browse More</a
+          >
+        </div>
       </div>
     </section>
 
@@ -214,6 +382,23 @@
           © 2023 WatchApp
         </p>
       </footer>
+    </section>
+
+    <!-- Search Section -->
+
+    <section>
+      <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+          <div class="search-close-switch">+</div>
+          <form class="search-model-form">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search here....."
+            />
+          </form>
+        </div>
+      </div>
     </section>
   </body>
 </html>
